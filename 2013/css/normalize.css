@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; }
+a img,:link img,:visited img { border: none; }
+
+h1,h2,h3,h4,h5,h6 {
+  letter-spacing:0px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ul, li { margin: 0; padding: 0; }
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.clear, .cl {
+  clear: both;
+  line-height: 0 !important; 
+  height: 0 !important;
+}
+.clear-br {
+  clear: both;
+  height: 1em;
+  line-height: 1em;
+}
+
+.float-left,.fl { float: left; }
+.float-right,.fr { float: right; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.center { text-align: center; }
